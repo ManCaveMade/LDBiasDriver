@@ -10369,6 +10369,7 @@ Source: www.kingbright.com</description>
 <part name="ISENS-DIFF" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="LED1" library="led" deviceset="LED" device="CHIPLED_1206"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
+<part name="LD2" library="pinhead" deviceset="PINHD-1X2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10417,6 +10418,7 @@ Source: www.kingbright.com</description>
 <instance part="ISENS-DIFF" gate="G$1" x="43.18" y="5.08" rot="R180"/>
 <instance part="LED1" gate="G$1" x="-30.48" y="22.86"/>
 <instance part="R2" gate="G$1" x="-30.48" y="30.48" rot="R90"/>
+<instance part="LD2" gate="G$1" x="104.14" y="38.1"/>
 </instances>
 <busses>
 </busses>
@@ -10524,13 +10526,19 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="LD" gate="G1" pin="1"/>
-<wire x1="68.58" y1="53.34" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="53.34" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="LD2" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="53.34" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="38.1" x2="88.9" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="38.1" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
+<junction x="88.9" y="53.34"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="LD" gate="G1" pin="2"/>
-<wire x1="93.98" y1="55.88" x2="71.12" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="55.88" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="55.88" x2="71.12" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="55.88" x2="71.12" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="GND_LD"/>
 <wire x1="71.12" y1="58.42" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
@@ -10538,6 +10546,10 @@ Source: www.kingbright.com</description>
 <wire x1="93.98" y1="66.04" x2="71.12" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="66.04" x2="71.12" y2="58.42" width="0.1524" layer="91"/>
 <junction x="71.12" y="58.42"/>
+<pinref part="LD2" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="40.64" x2="91.44" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="40.64" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
+<junction x="91.44" y="55.88"/>
 </segment>
 </net>
 <net name="N$11" class="0">
