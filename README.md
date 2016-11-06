@@ -11,13 +11,13 @@ https://www.thorlabs.com/thorproduct.cfm?partnumber=MLD203P1
 
 #### Features
 
-> Input voltage: 6 - 18 V
-> Output current: < 200 mA @ 3.0 V
-> Laser current monitor output: 0.1V/mA
-> Over current protection resistor (R3)
-> Sexy red power on LED
-> Compact
-> SMA for DC bias output (easy connection direct to Bias-Tee)
-> ~3 uA noise
+* Input voltage: 6 - 18 V
+* Output current: < 200 mA @ 3.0 V
+* Laser current monitor output: 0.1V/mA wrt. GND
+* Over current protection resistor (R3)
+* Sexy red power on LED
+* Compact
+* SMA for DC bias output (easy connection direct to Bias-Tee)
+* ~3 uA noise
  
 Designed with Eagle 7.7
