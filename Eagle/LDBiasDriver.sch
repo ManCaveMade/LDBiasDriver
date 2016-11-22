@@ -10346,7 +10346,7 @@ Source: www.kingbright.com</description>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805" value="10uF"/>
 <part name="R1" library="pot" deviceset="TRIM_EU-" device="RJ9W" value="10k"/>
-<part name="LD" library="con-coax" deviceset="SMA-" device="142-0701-871/876"/>
+<part name="LD" library="con-coax" deviceset="SMA-" device="142-0711-821/826" value="SMA-142-0711-821/826"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0805" value="270"/>
 <part name="IC2" library="laser diode" deviceset="MLD203P1" device=""/>
 <part name="PD" library="pinhead" deviceset="PINHD-1X2" device=""/>
