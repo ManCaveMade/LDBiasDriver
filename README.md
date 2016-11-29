@@ -3,6 +3,8 @@ Copyright Mitchell A. Cox (mitch@enox.co.za)
 
 If you use this design, please acknowledge me in any resulting publications.
 
+Git Clone: http://git.eie.wits.ac.za/mitchcox/LDBiasDriver.git
+
 ### What is it?
 
 A low noise laser diode bias driver which uses the ThorLabs MLD203P1 constant power bias driver.
