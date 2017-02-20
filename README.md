@@ -5,12 +5,13 @@ If you use this design, please acknowledge me in any resulting publications.
 
 ### What is it?
 
-*A low noise laser diode bias driver which uses the ThorLabs MLD203P1 constant power and also the MLD203CLN constanct current (better for fast modulation systems which use a Bias-Tee) bias driver.
+1. A low noise laser diode bias driver which uses the ThorLabs MLD203P1 constant power and also the MLD203CLN constanct current (better for fast modulation systems which use a Bias-Tee) bias driver.
 
 https://www.thorlabs.com/thorproduct.cfm?partnumber=MLD203P1
+
 https://www.thorlabs.com/thorproduct.cfm?partnumber=MLD203CLN
 
-*A Arduino based controller for the CC version is WIP. This controller will allow greater than 12 bits of control of the output current as well as digital monitoring of the actual current, etc. I also plan on creating a user friendly MATLAB GUI for it.
+2. A Arduino based controller for the CC version is WIP. This controller will allow greater than 12 bits of control of the output current as well as digital monitoring of the actual current, etc. I also plan on creating a user friendly MATLAB GUI for it.
 
 #### Features
 
