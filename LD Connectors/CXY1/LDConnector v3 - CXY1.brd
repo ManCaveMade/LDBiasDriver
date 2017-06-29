@@ -91,6 +91,8 @@ Cox
 <wire x1="16.15" y1="24.5758" x2="13.46" y2="24.5758" width="0" layer="20"/>
 <rectangle x1="0" y1="12.004675" x2="9.652" y2="14.290675" layer="29"/>
 <text x="7.46125" y="21.79955" size="0.8128" layer="51" font="vector" ratio="20">LD TYPE</text>
+<hole x="12.7" y="4.28625" drill="4.3"/>
+<circle x="12.7" y="4.28625" radius="3.5" width="0.254" layer="21"/>
 </plain>
 <libraries>
 <library name="con-coax">
@@ -1483,7 +1485,7 @@ design rules under a new name.</description>
 </element>
 <element name="U$1" library="laser diode" package="TYPEA" value="LD-A" x="11.90625" y="11.8758" rot="R180"/>
 <element name="U$2" library="laser diode" package="TYPEG" value="LD-G" x="16.66875" y="11.8758"/>
-<element name="C2" library="rcl" package="C0603" value="0.1uF" x="10.16" y="9.41705" rot="R180"/>
+<element name="C2" library="rcl" package="C0603" value="0.1uF" x="10.16" y="10.05205" rot="R180"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1537,11 +1539,11 @@ design rules under a new name.</description>
 <wire x1="11.42224375" y1="11.8758" x2="11.1125" y2="11.7475" width="0.8128" layer="16" curve="45"/>
 <wire x1="11.1125" y1="11.7475" x2="11.01" y2="11.50004375" width="0.8128" layer="16" curve="45"/>
 <wire x1="11.01" y1="11.50004375" x2="11.01" y2="10.68705" width="0.8128" layer="16"/>
-<wire x1="11.01" y1="10.68705" x2="11.01" y2="8.8842125" width="0.8128" layer="16"/>
-<wire x1="11.01" y1="8.8842125" x2="10.71710625" y2="8.17710625" width="0.8128" layer="16" curve="-45"/>
-<wire x1="10.71710625" y1="8.17710625" x2="6.85244375" y2="4.31244375" width="0.8128" layer="16"/>
-<wire x1="6.85244375" y1="4.31244375" x2="6.1453375" y2="4.01955" width="0.8128" layer="16" curve="-45"/>
-<wire x1="6.1453375" y1="4.01955" x2="2.69875" y2="4.01955" width="0.8128" layer="16"/>
+<wire x1="11.01" y1="10.68705" x2="11.01" y2="8.47" width="0.8128" layer="16"/>
+<wire x1="11.01" y1="8.47" x2="10.63625" y2="8.09625" width="0.8128" layer="16"/>
+<wire x1="10.63625" y1="8.09625" x2="9.68375" y2="8.09625" width="0.8128" layer="16"/>
+<wire x1="9.68375" y1="8.09625" x2="5.60705" y2="4.01955" width="0.8128" layer="16"/>
+<wire x1="5.60705" y1="4.01955" x2="2.69875" y2="4.01955" width="0.8128" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="R2" pad="2"/>
@@ -1564,15 +1566,17 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="3-PDA"/>
 <contactref element="U$2" pad="3-LDA"/>
 <contactref element="C2" pad="1"/>
-<wire x1="2.69875" y1="1.47955" x2="6.1453375" y2="1.47955" width="0.8128" layer="1"/>
-<wire x1="6.1453375" y1="1.47955" x2="6.85244375" y2="1.77244375" width="0.8128" layer="1" curve="45"/>
-<wire x1="6.85244375" y1="1.77244375" x2="10.71710625" y2="5.63710625" width="0.8128" layer="1"/>
-<wire x1="10.71710625" y1="5.63710625" x2="11.01" y2="6.3442125" width="0.8128" layer="1" curve="45"/>
-<wire x1="11.01" y1="6.3442125" x2="11.01" y2="9.41705" width="0.8128" layer="1"/>
 <wire x1="14.23375" y1="10.6058" x2="11.42224375" y2="10.6058" width="0.8128" layer="1"/>
 <wire x1="11.42224375" y1="10.6058" x2="11.1125" y2="10.4775" width="0.8128" layer="1" curve="45"/>
 <wire x1="11.1125" y1="10.4775" x2="11.01" y2="10.23004375" width="0.8128" layer="1" curve="45"/>
-<wire x1="11.01" y1="10.23004375" x2="11.01" y2="9.41705" width="0.8128" layer="1"/>
+<wire x1="11.01" y1="10.23004375" x2="11.01" y2="10.05205" width="0.8128" layer="1"/>
+<wire x1="7.14375" y1="5.55625" x2="7.14375" y2="2.8575" width="0.8128" layer="1"/>
+<wire x1="7.14375" y1="2.8575" x2="5.7658" y2="1.47955" width="0.8128" layer="1"/>
+<wire x1="5.7658" y1="1.47955" x2="2.69875" y2="1.47955" width="0.8128" layer="1"/>
+<wire x1="10.63625" y1="8.09625" x2="9.68375" y2="8.09625" width="0.8128" layer="1"/>
+<wire x1="9.68375" y1="8.09625" x2="7.14375" y2="5.55625" width="0.8128" layer="1"/>
+<wire x1="10.63625" y1="8.09625" x2="11.01" y2="8.47" width="0.8128" layer="1"/>
+<wire x1="11.01" y1="8.47" x2="11.01" y2="10.05205" width="0.8128" layer="1"/>
 <wire x1="14.23375" y1="10.6058" x2="14.34125" y2="10.6058" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
